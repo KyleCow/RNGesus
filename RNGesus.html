@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+     <title>RNGesus Shrine</title> 
+ </head> 
+
+ <style> 
+     <body background-color: red>
+         
+</style> 
+ <body> 
+ <center> 
+
+ <h1>RNGesus Shrine</h1>
+ 
+ <button onclick="randomNumber()">Pray To RNGesus</button> 
+ <p id="number-returned"></p> 
+ 
+ 
+ </center> 
+
+ <script> 
+ function randomNumber() { 
+     var x = Math.floor((Math.random() * 50) + 1); 
+     document.getElementById("number-returned").innerHTML = "RNGesus gives you "+"<b>"+x+"</b>"; 
+ } 
+ </script> 
+ 
+ 
+ </body> 
+ </html>  
